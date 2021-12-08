@@ -50,3 +50,8 @@ python3 manage.py migrate
 ### CREATE A SUPERUSER
 
 python3 manage.py createsuperuser
+
+
+### MAKE DIRECTORIES
+mkdir templates
+mkdir templates/allauth
