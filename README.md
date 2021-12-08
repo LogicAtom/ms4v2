@@ -55,3 +55,30 @@ python3 manage.py createsuperuser
 ### MAKE DIRECTORIES
 mkdir templates
 mkdir templates/allauth
+
+
+### COPY PATH
+To find your allauth path in Terminal type:
+
+python
+
+
+then type:
+
+help('allauth')
+
+
+
+allauth will display an ASCII logo and info about your path :)
+
+__________________________________________
+
+
+Update the provided command with the path you just copied. eg: cp -r [your site-package path]/allauth/templates/* ./templates/allauth/
+
+#### Next step
+right click on templates directory, and create base.html file. Will use BootStrap Starter Template.
+
+### BOOTSTRAP
+https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template
+
