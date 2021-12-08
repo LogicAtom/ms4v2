@@ -82,3 +82,19 @@ right click on templates directory, and create base.html file. Will use BootStra
 ### BOOTSTRAP
 https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template
 
+### CREATE NEW APPS
+python3 manage.py startapp home
+python3 manage.py startapp products
+
+
+We need a templates directory inside the home app.
+So let's use 
+
+mkdir -p home/templates/home
+
+ to create parents as required.
+
+ and then right click on inner home directory and right click to create a new file named:  index.html
+
+
+ 
