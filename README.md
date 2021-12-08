@@ -97,4 +97,7 @@ mkdir -p home/templates/home
  and then right click on inner home directory and right click to create a new file named:  index.html
 
 
- 
+ ### CREATE VIEWS
+ views.py
+
+ views.py is the file used to render new files
