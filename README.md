@@ -31,6 +31,11 @@ pip3 install psycopg2-binary==2.9.2
 pip install pillow
 
 
+Occassionally, 
+
+pip3 freeze > requirements.txt
+
+
 ### DJANGO - NEW PROJECT (dont forget the dot at the end!!!)
 django-admin startproject ms4v2 .
 
