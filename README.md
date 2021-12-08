@@ -18,7 +18,8 @@
     purchasing and check out. and administration and store management as well
     As we work through this project we'll check off the different user stories
     as we add more and more features to the site.
-4. 
+4. Allow users to create an account and login (allauth)
+5. 
 
 ### PIP INSTALLS (do these very first thing!)
 pip3 install Django==3.2.9

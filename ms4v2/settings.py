@@ -103,7 +103,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'ecommerce.wsgi.application'
+WSGI_APPLICATION = 'ms4v2.wsgi.application'
 
 
 # Database
