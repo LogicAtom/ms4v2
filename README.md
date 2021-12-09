@@ -99,6 +99,9 @@ mkdir static/css
 new file base.css
 
 
+mkdir -p products/templates/products (so Django knows which app these belong to, don't type this parenthesis text or parenthesis)
+
+
  ### CREATE VIEWS
  views.py
 
@@ -125,7 +128,7 @@ new file base.css
  2.  
 
 
-### MIGRATIONS
+### MIGRATIONS (changes to models)
 python3 manage.py makemigrations --dry-run
 python3 manage.py makemigrations
 python3 manage.py migrate --plan <!-- --plan flag, to make sure there is nothing wrong with the models -->
