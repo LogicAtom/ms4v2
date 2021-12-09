@@ -1,3 +1,7 @@
+# SOURCE (this is an updated version of the Original which can be found below)
+https://github.com/LogicAtom/ecommerce
+
+
 ### USER STORIES
 1. As a Shopper, I want to view a list of products, and select some to purchase.
 2. As a Shopper, I want to be able to view product details., price, description, rating, sizes, product image.
@@ -100,6 +104,7 @@ new file base.css
 
 
 mkdir -p products/templates/products (so Django knows which app these belong to, don't type this parenthesis text or parenthesis)
+
 
 
  ### CREATE VIEWS
