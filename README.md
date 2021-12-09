@@ -23,7 +23,8 @@ https://github.com/LogicAtom/ecommerce
     As we work through this project we'll check off the different user stories
     as we add more and more features to the site.
 4. Allow users to create an account and login (allauth)
-5. 
+5. All users/shoppers to find products without having to search through all the products.
+6. 
 
 ### PIP INSTALLS (do these very first thing!)
 pip3 install Django==3.2.9
