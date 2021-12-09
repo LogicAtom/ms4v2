@@ -40,13 +40,6 @@ pip3 freeze > requirements.txt
 django-admin startproject ms4v2 .
 
 
-### MIGRATIONS
-python3 manage.py makemigrations --dry-run
-python3 manage.py makemigrations
-python3 manage.py migrate --plan <!-- --plan flag, to make sure there is nothing wrong with the models -->
-python3 manage.py migrate
-
-
 ### CREATE A SUPERUSER
 
 python3 manage.py createsuperuser
@@ -121,4 +114,26 @@ new file base.css
  ### WEB TOOLS
  https://fonts.google.com/
  https://fontawesome.com
- 
+ https://kaggle.com
+ https://jsonformatter.org/
+
+
+ ### ERRORS
+ In case any errors happen, these are common places to figure it out:
+
+ 1.  foreign keys, products folder(app), models.py
+ 2.  
+
+
+### MIGRATIONS
+python3 manage.py makemigrations --dry-run
+python3 manage.py makemigrations
+python3 manage.py migrate --plan <!-- --plan flag, to make sure there is nothing wrong with the models -->
+python3 manage.py migrate
+
+
+### LOAD DATA (to use the fixtures)
+python3 manage.py loaddata categories
+
+python3 manage.py loaddata products
+
