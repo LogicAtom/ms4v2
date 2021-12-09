@@ -118,4 +118,7 @@ new file base.css
  https://i5.walmartimages.com/asr/ca405873-3b81-4bb6-9c13-28ce98338bc5_1.5dce4e895ef268cd3466944771780ffc.jpeg
 
 
+ ### WEB TOOLS
+ https://fonts.google.com/
+ https://fontawesome.com
  
