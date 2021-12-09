@@ -92,12 +92,27 @@ So let's use
 
 mkdir -p home/templates/home
 
- to create parents as required.
+  to create parents as required.
 
- and then right click on inner home directory and right click to create a new file named:  index.html
+  and then right click on inner home directory and right click to create a new file named:  index.html
+
+
+mkdir static
+
+mkdir media
+
+mkdir static/css
+
+new file base.css
 
 
  ### CREATE VIEWS
  views.py
 
  views.py is the file used to render new files
+
+
+ ### RESOURCES
+ https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-shine-running-fitness-advertising-background-backgroundpurple-backgroundadvancedrunhand-paintedsmart-image_71209.jpg
+
+ 
