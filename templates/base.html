@@ -33,16 +33,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
-    <!-- Stripe -->
-
-    <!--
-    <script src="https://js.stripe.com/v3/"></script> -->
+    <!-- Stripe 
+    <script src="https://js.stripe.com/v3/"></script>-->
     {% endblock %}
 
     {% block extra_js %}
     {% endblock %}
 
-    <title>ms4v2 {% block extra_title %}{% endblock %}</title>
+    <title>E-Commerce {% block extra_title %}{% endblock %}</title>
 </head>
 
 <body>
@@ -50,7 +48,7 @@
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>ms4</strong>v2</h2>
+                    <h2 class="logo-font text-black my-0"><strong>E</strong>-Commerce</h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -81,7 +79,7 @@
                         <div class="dropdown-menu border=0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
-                            <a href="" class="dropdown-item">Product Management</a>
+                            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                             {% endif %}
                             <a href="" class="dropdown-item">My Profile</a>
                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -109,11 +107,44 @@
                 </ul>
             </div>
         </div>
-
+        <div class="row bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- isolate html files to be able to change specific part of site -->
+                {% include 'includes/mobile-top-header.html' %}
+                {% include 'includes/main-nav.html' %}
+            </nav>
+        </div>
+        <div id="delivery-banner" class="row text-center">
+            <div class="col bg-black text-white">
+                <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
+            </div>
+        </div>
     </header>
 
     {% if messages %}
-    <div class="message-container"></div>
+    <div class="message-container">
+        {% for message in messages %}
+        <!-- iterate through any messages sent back from the server and render one of these includes. -->
+        {% with message.level as level %}
+        {% if level == 40 %}
+        {% include 'includes/toasts/toast_error.html' %}
+        <!-- in Django a message of level 40 is an Error -->
+        {% elif level == 30 %}
+        {% include 'includes/toasts/toast_warning.html' %}
+        <!-- in Django a message of level 30 is a Warning -->
+        {% elif level == 25 %}
+        <!-- in Django a message of level 25 is Success -->
+        {% include 'includes/toasts/toast_success.html' %}
+        {% else %}
+        {% include 'includes/toasts/toast_info.html' %}
+        {% endif %}
+        {% endwith %}
+        {% endfor %}
+    </div>
     {% endif %}
 
     {% block page_header %}
@@ -123,6 +154,9 @@
     {% endblock %}
 
     {% block postloadjs %}
+    <script type="text/javascript">
+        $('.toast').toast('show');
+    </script>
     {% endblock %}
 
 </body>

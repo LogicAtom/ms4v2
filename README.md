@@ -150,3 +150,9 @@ python3 manage.py loaddata products
 django.db.models.BigAutoField = products, apps.py
 
 django/forms/widgets/attrs.html = attributes
+
+templates/base.html  = commented out stripe until actually used.
+
+accounts/broken/ = displays allauth links
+
+css > Bulma = keeps fontawesome aligned
