@@ -3,37 +3,37 @@ https://github.com/LogicAtom/ecommerce
 
 
 ### USER STORIES
-1. As a Shopper, I want to view a list of products, and select some to purchase.
-2. As a Shopper, I want to be able to view product details., price, description, rating, sizes, product image.
-3.     The last two user stories in the viewing and navigation category.
-    Are met with the presence of a navigation menu.
-    That allows users to quickly identify deals and special offers.
-    And a real-time shopping bag indicator.
+1. As a Shopper, I want to view a list of products, and select some to purchase.<br />
+2. As a Shopper, I want to be able to view product details., price, description, rating, sizes, product image.<br />
+3.     The last two user stories in the viewing and navigation category.<br />
+    Are met with the presence of a navigation menu.<br />
+    That allows users to quickly identify deals and special offers.<br />
+    And a real-time shopping bag indicator.<br />
     That allows users to view the total amount of their purchase at any time
-    in order to avoid spending too much.
-    Although it is possible to make purchases as a guest.
-    Our store will allow users to register for an account.
-    log in and out
-    And reset their password if they've forgotten it.
-    Logged in users will have access to a personalized user profile.
-    Where they can store their default payment information.
-    And view their order history as well as past order confirmations.
-    There are user story categories for sorting and searching.
-    purchasing and check out. and administration and store management as well
+    in order to avoid spending too much.<br />
+    Although it is possible to make purchases as a guest.<br />
+    Our store will allow users to register for an account.<br />
+    log in and out<br />
+    And reset their password if they've forgotten it.<br />
+    Logged in users will have access to a personalized user profile.<br />
+    Where they can store their default payment information.<br />
+    And view their order history as well as past order confirmations.<br />
+    There are user story categories for sorting and searching.<br />
+    purchasing and check out. and administration and store management as well<br />
     As we work through this project we'll check off the different user stories
-    as we add more and more features to the site.
-4. Allow users to create an account and login (allauth)
-5. All users/shoppers to find products without having to search through all the products.
+    as we add more and more features to the site.<br />
+4. Allow users to create an account and login (allauth)<br />
+5. All users/shoppers to find products without having to search through all the products.<br />
 6. 
 
 ### PIP INSTALLS (do these very first thing!)
-pip3 install Django==3.2.9
-pip3 install django-allauth==0.46.0
-pip3 install dj-database-url==0.5.0
-pip3 install django-countries==7.2.1
-pip3 install django-crispy-forms==1.13.0
-pip3 install psycopg2-binary==2.9.2
-pip install pillow
+pip3 install Django==3.2.9<br />
+pip3 install django-allauth==0.46.0<br />
+pip3 install dj-database-url==0.5.0<br />
+pip3 install django-countries==7.2.1<br />
+pip3 install django-crispy-forms==1.13.0<br />
+pip3 install psycopg2-binary==2.9.2<br />
+pip install pillow<br />
 
 
 Occassionally, 
@@ -51,8 +51,8 @@ python3 manage.py createsuperuser
 
 
 ### MAKE DIRECTORIES
-mkdir templates
-mkdir templates/allauth
+mkdir templates<br />
+mkdir templates/allauth<br />
 
 
 ### COPY PATH
@@ -81,15 +81,15 @@ right click on templates directory, and create base.html file. Will use BootStra
 https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template
 
 ### CREATE NEW APPS
-python3 manage.py startapp home
-python3 manage.py startapp products
-python3 manage.py startapp bag
-python3 manage.py startapp checkout
-python3 manage.py startapp profiles
+python3 manage.py startapp home<br />
+python3 manage.py startapp products<br />
+python3 manage.py startapp bag<br />
+python3 manage.py startapp checkout<br />
+python3 manage.py startapp profiles<br />
 
 
 
-We need a templates directory inside the home app.
+We need a templates directory inside the home app.<br />
 So let's use 
 
 mkdir -p home/templates/home
@@ -125,10 +125,10 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
 
 
  ### WEB TOOLS
- https://fonts.google.com/
- https://fontawesome.com
- https://kaggle.com
- https://jsonformatter.org/
+ https://fonts.google.com/<br />
+ https://fontawesome.com<br />
+ https://kaggle.com<br />
+ https://jsonformatter.org/<br />
 
 
  ### ERRORS
@@ -139,10 +139,10 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
 
 
 ### MIGRATIONS (changes to models)
-python3 manage.py makemigrations --dry-run
-python3 manage.py makemigrations
-python3 manage.py migrate --plan <!-- --plan flag, to make sure there is nothing wrong with the models -->
-python3 manage.py migrate
+python3 manage.py makemigrations --dry-run<br />
+python3 manage.py makemigrations<br />
+python3 manage.py migrate --plan <!-- --plan flag, to make sure there is nothing wrong with the models --><br />
+python3 manage.py migrate<br />
 
 
 ### LOAD DATA (to use the fixtures)
@@ -168,7 +168,7 @@ checkout/models.py = profiles, might cause problems as its not built yet. = WORK
 checkout/forms.py = attrs, args, kwargs
 
 ### LAST WORKING
-old = initial Checkout app build, before adding any code
-new = checkout app built but with commented out stripe coding
+old = initial Checkout app build, before adding any code<br />
+new = checkout app built but with commented out stripe coding<br />
 
 
