@@ -83,6 +83,7 @@ https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template
 ### CREATE NEW APPS
 python3 manage.py startapp home
 python3 manage.py startapp products
+python3 manage.py startapp bag
 
 
 We need a templates directory inside the home app.
@@ -156,3 +157,6 @@ templates/base.html  = commented out stripe until actually used.
 accounts/broken/ = displays allauth links
 
 css > Bulma = keeps fontawesome aligned
+
+bag/checkout-buttons.html = need to add checkout url
+
