@@ -85,6 +85,7 @@ python3 manage.py startapp home
 python3 manage.py startapp products
 python3 manage.py startapp bag
 python3 manage.py startapp checkout
+python3 manage.py startapp profiles
 
 
 
