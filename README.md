@@ -146,3 +146,5 @@ python3 manage.py loaddata categories
 
 python3 manage.py loaddata products
 
+## REMINDERS
+django.db.models.BigAutoField = products, apps.py
