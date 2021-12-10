@@ -162,6 +162,7 @@ css > Bulma = keeps fontawesome aligned
 
 bag/checkout-buttons.html = need to add checkout url
 
+checkout/models.py = profiles, might cause problems as its not built yet.
 
 ### LAST WORKING
 initial Checkout app build, before adding any code
