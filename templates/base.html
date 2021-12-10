@@ -1,4 +1,5 @@
 {% load static %}
+
 <!doctype html>
 <html lang="en">
 
@@ -16,7 +17,7 @@
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -24,9 +25,9 @@
     {% endblock %}
 
     {% block corejs %}
-    <script src="https://kit.fontawesome.com/9809402637.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
@@ -40,7 +41,7 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>E-Commerce {% block extra_title %}{% endblock %}</title>
+    <title>Boutique Ado {% block extra_title %}{% endblock %}</title>
 </head>
 
 <body>
@@ -48,7 +49,7 @@
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>E</strong>-Commerce</h2>
+                    <h2 class="logo-font text-black my-0"><strong>ms4</strong> v2</h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -76,12 +77,12 @@
                                 <p class="my-0">My Account</p>
                             </div>
                         </a>
-                        <div class="dropdown-menu border=0" aria-labelledby="user-options">
+                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
                             <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                             {% endif %}
-                            <a href="" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}
                             <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
@@ -91,7 +92,7 @@
                     </li>
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                            href="">
+                            href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
@@ -113,7 +114,6 @@
                     aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <!-- isolate html files to be able to change specific part of site -->
                 {% include 'includes/mobile-top-header.html' %}
                 {% include 'includes/main-nav.html' %}
             </nav>
@@ -128,16 +128,12 @@
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
-        <!-- iterate through any messages sent back from the server and render one of these includes. -->
         {% with message.level as level %}
         {% if level == 40 %}
         {% include 'includes/toasts/toast_error.html' %}
-        <!-- in Django a message of level 40 is an Error -->
         {% elif level == 30 %}
         {% include 'includes/toasts/toast_warning.html' %}
-        <!-- in Django a message of level 30 is a Warning -->
         {% elif level == 25 %}
-        <!-- in Django a message of level 25 is Success -->
         {% include 'includes/toasts/toast_success.html' %}
         {% else %}
         {% include 'includes/toasts/toast_info.html' %}
@@ -158,6 +154,7 @@
         $('.toast').toast('show');
     </script>
     {% endblock %}
+
 
 </body>
 
