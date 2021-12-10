@@ -84,6 +84,8 @@ https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template
 python3 manage.py startapp home
 python3 manage.py startapp products
 python3 manage.py startapp bag
+python3 manage.py startapp checkout
+
 
 
 We need a templates directory inside the home app.
@@ -159,4 +161,8 @@ accounts/broken/ = displays allauth links
 css > Bulma = keeps fontawesome aligned
 
 bag/checkout-buttons.html = need to add checkout url
+
+
+### LAST WORKING
+initial Checkout app build, before adding any code
 
