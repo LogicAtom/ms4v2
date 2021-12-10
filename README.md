@@ -160,12 +160,14 @@ accounts/broken/ = displays allauth links
 
 css > Bulma = keeps fontawesome aligned
 
-bag/checkout-buttons.html = need to add checkout url
+bag/checkout-buttons.html = need to add checkout url = RESOLVED*
 
-checkout/models.py = profiles, might cause problems as its not built yet.
+checkout/models.py = profiles, might cause problems as its not built yet. = WORKING*NoErrors
 
 checkout/forms.py = attrs, args, kwargs
 
 ### LAST WORKING
-initial Checkout app build, before adding any code
+old = initial Checkout app build, before adding any code
+new = checkout app built but with commented out stripe coding
+
 
