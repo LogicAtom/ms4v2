@@ -164,6 +164,8 @@ bag/checkout-buttons.html = need to add checkout url
 
 checkout/models.py = profiles, might cause problems as its not built yet.
 
+checkout/forms.py = attrs, args, kwargs
+
 ### LAST WORKING
 initial Checkout app build, before adding any code
 
