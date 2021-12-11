@@ -35,6 +35,7 @@ pip3 install django-crispy-forms==1.13.0<br />
 pip3 install psycopg2-binary==2.9.2<br />
 pip install pillow<br />
 pip3 install stripe<br />
+pip3 install gunicorn<br />
 
 
 Occassionally, 
