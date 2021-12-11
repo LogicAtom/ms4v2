@@ -121,9 +121,8 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
 
 
  ### RESOURCES
- Shopping Bags - Background Image
+ https://help.heroku.com/O0EXQZTA/how-do-i-switch-branches-from-master-to-main<br />
 
- https://i5.walmartimages.com/asr/ca405873-3b81-4bb6-9c13-28ce98338bc5_1.5dce4e895ef268cd3466944771780ffc.jpeg
 
 
  ### WEB TOOLS
@@ -131,6 +130,7 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
  https://fontawesome.com<br />
  https://kaggle.com<br />
  https://jsonformatter.org/<br />
+ https://miniwebtool.com/django-secret-key-generator/<br />
 
 
  ### ERRORS
