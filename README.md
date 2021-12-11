@@ -34,6 +34,7 @@ pip3 install django-countries==7.2.1<br />
 pip3 install django-crispy-forms==1.13.0<br />
 pip3 install psycopg2-binary==2.9.2<br />
 pip install pillow<br />
+pip3 install stripe<br />
 
 
 Occassionally, 
@@ -144,6 +145,8 @@ python3 manage.py makemigrations<br />
 python3 manage.py migrate --plan <!-- --plan flag, to make sure there is nothing wrong with the models --><br />
 python3 manage.py migrate<br />
 
+python3 manage.py showmigrations
+
 
 ### LOAD DATA (to use the fixtures)
 python3 manage.py loaddata categories
@@ -151,7 +154,7 @@ python3 manage.py loaddata categories
 python3 manage.py loaddata products
 
 ## REMINDERS
-django.db.models.BigAutoField = products, apps.py
+django.db.models.BigAutoField = products, apps.py = *RESOLVED*
 
 django/forms/widgets/attrs.html = attributes
 
