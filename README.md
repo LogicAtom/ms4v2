@@ -1,4 +1,4 @@
-# SOURCE (this is an updated version of the Original which can be found below)
+# MS4v2 (this is an updated version of the Original which can be found below)
 https://github.com/LogicAtom/ecommerce
 
 
@@ -131,6 +131,8 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
  https://kaggle.com<br />
  https://jsonformatter.org/<br />
  https://miniwebtool.com/django-secret-key-generator/<br />
+ https://www.diffchecker.com/<br />
+
 
 
  ### ERRORS
@@ -173,6 +175,6 @@ checkout/forms.py = attrs, args, kwargs
 
 ### LAST WORKING
 old = initial Checkout app build, before adding any code<br />
-new = checkout app built but with commented out stripe coding<br />
+new = heroku deploy<br />
 
 
