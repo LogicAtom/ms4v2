@@ -157,7 +157,7 @@ python3 manage.py loaddata categories
 python3 manage.py loaddata products
 
 ## REMINDERS
-django.db.models.BigAutoField = products, apps.py = *RESOLVED*
+django.db.models.BigAutoField = products, apps.py = *RESOLVED* by adding this to the end of the settings.py file:  DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 django/forms/widgets/attrs.html = attributes
 
