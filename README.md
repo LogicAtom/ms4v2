@@ -1,5 +1,8 @@
-# MS4v2 (this is an updated version of the Original which can be found below)
-https://github.com/LogicAtom/ecommerce
+# MS4v2 - December 15, 2021
+Created to show Django and Python e-commerce website.
+
+## 👷 Built with these Technologies
+Python3, Django, HTML5, CSS3, PostGres, AWS, STRIPE, JS.
 
 
 ### USER STORIES
@@ -24,7 +27,7 @@ https://github.com/LogicAtom/ecommerce
     as we add more and more features to the site.<br />
 4. Allow users to create an account and login (allauth)<br />
 5. All users/shoppers to find products without having to search through all the products.<br />
-6. 
+6. As an administrator be able to access and edit products as well as be a shopper.
 
 ### PIP INSTALLS (do these very first thing!)
 pip3 install Django==3.2.9<br />
@@ -122,7 +125,7 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
 
  ### RESOURCES
  https://help.heroku.com/O0EXQZTA/how-do-i-switch-branches-from-master-to-main<br />
-
+ https://stripe.com/docs/testing#cards<br />
 
 
  ### WEB TOOLS
@@ -134,12 +137,11 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
  https://www.diffchecker.com/<br />
 
 
-
  ### ERRORS
  In case any errors happen, these are common places to figure it out:
 
  1.  foreign keys, products folder(app), models.py
- 2.  
+ 2.  bigautofield. *RESOLVED* via last line of code in settings.py (apparently its related to django version).
 
 
 ### MIGRATIONS (changes to models)
@@ -173,8 +175,50 @@ checkout/models.py = profiles, might cause problems as its not built yet. = WORK
 
 checkout/forms.py = attrs, args, kwargs
 
-### LAST WORKING
-old = initial Checkout app build, before adding any code<br />
-new = heroku deploy<br />
+
+#### Assistant Services and Drivers
+NodeJS - https://nodejs.org/en/download/ = Dependency Manager<br />
+JQuery - https://jqueryui.com/ = Hamburger Mobile Side Menu<br />
+Materialize CSS - https://materializecss.com/ = Enhance UI/UX<br />
+Amazon Web Services - https://aws.amazon.com/ = Database Connector <br />
+[Git](https://git-scm.com/ "Git") : Version Control System <br />
+[GitPod](https://gitpod.io/ "GitPod") : IDE <br />
+FontAwesome.com = Custom Icons<br />
+Random Keygen https://randomkeygen.com/<br />
+Favicon = https://www.favicon.cc/?action=icon&file_id=957941<br />
+Data Modeling Software = https://dbdiagram.io/<br />
+
+## Credits and Acknowledgements
+
+[Code Institute](https://codeinstitute.net/ "Code Institute")Code Institute - FullStack Boot Camp - Most of the code and instructions was written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
+<br />
+Code Institute - for having me create a Python3 - Full-Stack MileStone4 project
+
+Code Institute - Tutors for all your help..you rock!<br />
+Tutors:<br />
+Code Institute Tutors (Alan) = Django Admin Model and Project Migrations. :)<br />
+Code Institute Tutors (Ed) = Django and Site Views and Templates. :) <br />
+Code Institute Tutors (Sheryl) = Django Environment Variables., and Heroku help. :)<br />
+Code Institute Tutors (Rebecca) = AWS, ACL's, Stripe Docs, and Heroku CVARs :)<br />
+Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!<br />
+
+stackoverflow - For all of the custom questions and answers.
+
+Akshat Garg - My Mentor for Software Development from Code Institute ... Thank you so very much for everything!! :)
 
 
+### Educational Acknowledgements
+Palmetto Goodwill - In collaboration with TTC - Grant Funder (my beautiful angels!)
+<br />
+Code Institute - Web Development School - You are the best Teachers!
+<br />
+Ed2Go/Cengage - Online Courses - You brought it all together, and offered the course. Awesome!
+<br />
+Charleston County Public Library - Thank you for letting me borrow around 100 books!
+
+
+## 🧑🏻 Code Developer
+
+**Anthony Kozloski**
+
+- 🌌 [Profile](https://github.com/LogicAtom "Anthony Kozloski")
