@@ -1,9 +1,40 @@
-# MS4v2 - December 15, 2021
+# MS4v2 - December 15, 2021 (Updated December 30, 2021)
 Created to show Django and Python e-commerce website.
+
+## UPDATES
+Adding TESTING PROCEDURES section with associated screenshots, and a basic description for each.<br />
+Adding NEW SCREENSHOTS for the Testing Procedures section<br />
+Adding CODE VALIDATION URLs<br />
+
 
 ## 👷 Built with these Technologies
 Python3, Django, HTML5, CSS3, PostGres, AWS, STRIPE, JS.
 
+## TESTING PROCEDURES
+1. UI: Adding items to shopping bag = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/add_to_bag_working.png
+2. AUTH: Authentication Error = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/checkout_auth_fail.png
+3. AUTH: Successful connection with Heroku CLI = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/heroku_cli.png
+4. Disabling Heroku from collection static media files, because static files are stored in AWS = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/heroku_config_set_disableCollectStatic.png
+5. Pushing git to Heroku directly = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/heroku_gitPush_working.png
+6. After migrating files to Heroku, Test to ensure all files made it there = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/heroku_migrations_noGo.png
+7. UX: Testing to see how the landing page looks = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/main_nav_working_and_toasts_working.png
+8. TEST Error with Python code = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/product_detail-add_to_bag_error.png
+9. Editing products = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/product_edit.png
+10. SEARCH QUERY for Specific product types = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/search_query_jeans_working.png
+11. Connecting the SHOP NOW button to the Products Page = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/wire_up_shop_now_button_to_products_page.png
+
+
+Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screenshots
+
+
+### CODE VALIDATION
+ CSS = https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en<br />
+ HTML w/Errors = https://validator.w3.org/nu/?doc=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F<br />
+ HTML Errors Fixed = 
+ 
+    ##### Testing Python code using Python Tutor at https://pythontutor.com/visualize.html#mode=edit
+ 
+ 
 
 ### USER STORIES
 1. As a Shopper, I want to view a list of products, and select some to purchase.<br />
@@ -41,8 +72,7 @@ pip3 install stripe<br />
 pip3 install gunicorn<br />
 
 
-Occassionally, 
-
+### Capture and save the project code libraries, so they are available to everyone who opens this project as a clone or fork :)
 pip3 freeze > requirements.txt
 
 
@@ -51,8 +81,8 @@ django-admin startproject ms4v2 .
 
 
 ### CREATE A SUPERUSER
-
 python3 manage.py createsuperuser
+(This is for the Django Administration)
 
 
 ### MAKE DIRECTORIES
@@ -69,7 +99,6 @@ python
 then type:
 
 help('allauth')
-
 
 
 allauth will display an ASCII logo and info about your path :)
@@ -116,7 +145,6 @@ new file base.css
 mkdir -p products/templates/products (so Django knows which app these belong to, don't type this parenthesis text or parenthesis)
 
 
-
  ### CREATE VIEWS
  views.py
 
@@ -126,7 +154,7 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
  ### RESOURCES
  https://help.heroku.com/O0EXQZTA/how-do-i-switch-branches-from-master-to-main<br />
  https://stripe.com/docs/testing#cards<br />
-
+ 
 
  ### WEB TOOLS
  https://fonts.google.com/<br />
@@ -135,6 +163,7 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
  https://jsonformatter.org/<br />
  https://miniwebtool.com/django-secret-key-generator/<br />
  https://www.diffchecker.com/<br />
+ https://pythontutor.com/visualize.html#mode=edit
 
 
  ### ERRORS
