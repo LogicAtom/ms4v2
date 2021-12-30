@@ -22,6 +22,9 @@ Python3, Django, HTML5, CSS3, PostGres, AWS, STRIPE, JS.
 9. Editing products = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/product_edit.png
 10. SEARCH QUERY for Specific product types = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/search_query_jeans_working.png
 11. Connecting the SHOP NOW button to the Products Page = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/wire_up_shop_now_button_to_products_page.png
+12. Connecting the SHOP NOW button to the Products Page (Success) = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/ShopNowButtonToProducts-Success.png
+13. Adding new products via Django Administration, as shown on the project main site = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/test_django_add_product-confirm.png
+14. Successful products added via Django Administration, as shown on the Django Administration = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/test_django_add_product.png
 
 
 Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screenshots
