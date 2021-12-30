@@ -1,6 +1,8 @@
 # MS4v2 - December 15, 2021 (Updated December 30, 2021)
 Created to show Django and Python e-commerce website.
 
+## LIVE SITE:  https://akoz-ms4v2.herokuapp.com/ 
+
 ## UPDATES
 Adding TESTING PROCEDURES section with associated screenshots, and a basic description for each.<br />
 Adding NEW SCREENSHOTS for the Testing Procedures section<br />
