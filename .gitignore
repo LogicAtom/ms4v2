@@ -11,3 +11,5 @@ node_modules/
 .github/
 cloudinary_python.txt
 -H
+package-lock.json
+package.json
