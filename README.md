@@ -35,7 +35,7 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
 ### CODE VALIDATION
  CSS = https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en<br />
  HTML w/Errors = https://validator.w3.org/nu/?doc=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F<br />
- HTML Errors Fixed = 
+
  
     ##### Testing Python code using Python Tutor at https://pythontutor.com/visualize.html#mode=edit
  
