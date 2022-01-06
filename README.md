@@ -31,6 +31,12 @@ Python3, Django, HTML5, CSS3, PostGres, AWS, STRIPE, JS.
 
 Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screenshots
 
+## TESTING USER STORIES
+A user cannot delete a product if they are not a superuser : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/nonAdmin_CRUD_directLinkDelete_NoGo.png
+
+Admin CRUD Delete direct link:
+https://akoz-ms4v2.herokuapp.com/products/delete/177/
+
 
 ### CODE VALIDATION
  CSS = https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en<br />
