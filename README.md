@@ -1,4 +1,6 @@
-# MS4v2 - December 15, 2021 (Updated December 30, 2021)
+# MS4v2 - December 15, 2021 
+
+(Updated December 30, 2021)
 Created to show Django and Python e-commerce website.
 
 ## LIVE SITE:  https://akoz-ms4v2.herokuapp.com/ 
@@ -30,12 +32,16 @@ Python3, Django, HTML5, CSS3, PostGres, AWS, STRIPE, JS.
 
 
 Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screenshots
+<br />
 
+(Updated January 6, 2022)
 ## TESTING USER STORIES
 A user cannot delete a product if they are not a superuser : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/nonAdmin_CRUD_directLinkDelete_NoGo.png
 
 Admin CRUD Delete direct link:
-https://akoz-ms4v2.herokuapp.com/products/delete/177/
+https://akoz-ms4v2.herokuapp.com/products/delete/177/ <br />
+
+
 
 
 ### CODE VALIDATION
