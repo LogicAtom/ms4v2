@@ -62,7 +62,7 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
 ## TESTING USER STORIES
 1. As a Shopper, I want to view a list of products : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStories1_asUserViewProducts.png
 2. As a Shopper, I want to be able to view product details, price, description, rating, sizes, product image : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/userStories2_productDetails.png
-3. That allows users to quickly identify deals and special offers : 
+3. That allows users to quickly identify deals and special offers : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_viewDeals.png
 
 
 
