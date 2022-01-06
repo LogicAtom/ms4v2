@@ -34,26 +34,7 @@ Python3, Django, HTML5, CSS3, PostGres, AWS, STRIPE, JS.
 Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screenshots
 <br />
 
-(Updated January 6, 2022)
-## TESTING USER STORIES
-A user cannot delete a product if they are not a superuser : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/nonAdmin_CRUD_directLinkDelete_NoGo.png
-
-Admin CRUD Delete direct link:
-https://akoz-ms4v2.herokuapp.com/products/delete/177/ <br />
-
-
-
-
-### CODE VALIDATION
- CSS = https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en<br />
- HTML w/Errors = https://validator.w3.org/nu/?doc=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F<br />
-
- 
-    ##### Testing Python code using Python Tutor at https://pythontutor.com/visualize.html#mode=edit
- 
- 
-
-### USER STORIES
+## USER STORIES
 1. As a Shopper, I want to view a list of products, and select some to purchase.<br />
 2. As a Shopper, I want to be able to view product details., price, description, rating, sizes, product image.<br />
 3.     The last two user stories in the viewing and navigation category.<br />
@@ -76,6 +57,29 @@ https://akoz-ms4v2.herokuapp.com/products/delete/177/ <br />
 4. Allow users to create an account and login (allauth)<br />
 5. All users/shoppers to find products without having to search through all the products.<br />
 6. As an administrator be able to access and edit products as well as be a shopper.
+
+(Updated January 6, 2022)
+## TESTING USER STORIES
+1. As a Shopper, I want to view a list of products : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStories1_asUserViewProducts.png
+2. As a Shopper, I want to be able to view product details, price, description, rating, sizes, product image : 
+
+
+
+A user cannot delete a product if they are not a superuser : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/nonAdmin_CRUD_directLinkDelete_NoGo.png
+
+Admin CRUD Delete direct link:
+https://akoz-ms4v2.herokuapp.com/products/delete/177/ <br />
+
+
+### CODE VALIDATION
+ CSS = https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en<br />
+ https://validator.w3.org/#validate_by_input<br />
+ HTML w/Errors = https://validator.w3.org/nu/?doc=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F<br />
+
+ 
+    ##### Testing Python code using Python Tutor at https://pythontutor.com/visualize.html#mode=edit
+ 
+ 
 
 ### PIP INSTALLS (do these very first thing!)
 pip3 install Django==3.2.9<br />
