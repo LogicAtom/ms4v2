@@ -47,11 +47,10 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
     And reset their password if they've forgotten it.<br />
     d. Our store will allow users to register for an account.<br />
     e. Although it is possible to make purchases as a guest.<br />
-    
-    Logged in users will have access to a personalized user profile.<br />
-    Where they can store their default payment information.<br />
+    f. Logged in users will have access to a personalized user profile.<br />
+    g. Where they can store their default payment information.<br />
     And view their order history as well as past order confirmations.<br />
-    There are user story categories for sorting and searching.<br />
+    h. There are user story categories for sorting and searching.<br />
     purchasing and check out. and administration and store management as well<br />
     As we work through this project we'll check off the different user stories
     as we add more and more features to the site.<br />
@@ -73,8 +72,8 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
 
   d. Register : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3d_Register_Login.png<br />
   e. Make purchases as a Guest : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3e_PurchaseAsGuest.png<br />
-
-
+  f. Logged in users will have access to a personalized user profile : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3f_UserProfile.png<br />
+  g. Where they can store their default payment information. And view their order history as well as past order confirmations. :  <br />
 
 
 
