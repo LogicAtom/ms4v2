@@ -37,16 +37,17 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
 ## USER STORIES
 1. As a Shopper, I want to view a list of products, and select some to purchase.<br />
 2. As a Shopper, I want to be able to view product details., price, description, rating, sizes, product image.<br />
-3.     The last two user stories in the viewing and navigation category.<br />
+3. a.  The last two user stories in the viewing and navigation category.<br />
     Are met with the presence of a navigation menu.<br />
     That allows users to quickly identify deals and special offers.<br />
     And a real-time shopping bag indicator.<br />
-    That allows users to view the total amount of their purchase at any time
+    b. That allows users to view the total amount of their purchase at any time
     in order to avoid spending too much.<br />
-    Although it is possible to make purchases as a guest.<br />
-    Our store will allow users to register for an account.<br />
-    log in and out<br />
+    c. log in and out<br />
     And reset their password if they've forgotten it.<br />
+    d. Our store will allow users to register for an account.<br />
+    e. Although it is possible to make purchases as a guest.<br />
+    
     Logged in users will have access to a personalized user profile.<br />
     Where they can store their default payment information.<br />
     And view their order history as well as past order confirmations.<br />
@@ -56,13 +57,25 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
     as we add more and more features to the site.<br />
 4. Allow users to create an account and login (allauth)<br />
 5. All users/shoppers to find products without having to search through all the products.<br />
-6. As an administrator be able to access and edit products as well as be a shopper.
+6. As an administrator be able to access and edit products as well as be a shopper.<br />
 
-(Updated January 6, 2022)
+(Updated January 6, 2022)<br />
 ## TESTING USER STORIES
-1. As a Shopper, I want to view a list of products : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStories1_asUserViewProducts.png
-2. As a Shopper, I want to be able to view product details, price, description, rating, sizes, product image : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/userStories2_productDetails.png
-3. That allows users to quickly identify deals and special offers : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_viewDeals.png
+1. As a Shopper, I want to view a list of products : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStories1_asUserViewProducts.png<br />
+2. As a Shopper, I want to be able to view product details, price, description, rating, sizes, product image : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/userStories2_productDetails.png<br />
+3. a. That allows users to quickly identify deals and special offers, as well as see the real-time shopping bag indicator : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_viewDeals.png<br />
+
+  b. That allows users to view the total amount of their purchase at any time in order to avoid spending too much : 
+
+  c. log in and out : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3b_logout.png<br />
+                      https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3c_logoutConfirmation.png<br />
+                      https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3c2_SuccessTOASTmsg.png<br />
+
+  d. Register : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3d_Register_Login.png<br />
+  e. Make purchases as a Guest : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3e_PurchaseAsGuest.png<br />
+
+
+
 
 
 
