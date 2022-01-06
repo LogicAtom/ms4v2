@@ -50,10 +50,10 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
     f. Logged in users will have access to a personalized user profile.<br />
     g. Where they can store their default payment information.<br />
     And view their order history as well as past order confirmations.<br />
-    h. There are user story categories for sorting and searching.<br />
-    purchasing and check out. and administration and store management as well<br />
-    As we work through this project we'll check off the different user stories
-    as we add more and more features to the site.<br />
+    h. There are user story categories for sorting and searching,<br />
+    purchasing and check out. 
+    i. Administration and store management.<br />
+    
 4. Allow users to create an account and login (allauth)<br />
 5. All users/shoppers to find products without having to search through all the products.<br />
 6. As an administrator be able to access and edit products as well as be a shopper.<br />
@@ -73,9 +73,9 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
   d. Register : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3d_Register_Login.png<br />
   e. Make purchases as a Guest : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3e_PurchaseAsGuest.png<br />
   f. Logged in users will have access to a personalized user profile : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3f_UserProfile.png<br />
-  g. Where they can store their default payment information. And view their order history as well as past order confirmations. :  <br />
-
-
+  g. Where they can store their default payment information. And view their order history as well as past order confirmations. : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_makePurchases_TestKey.png, https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_Profile_wOrderHistory.png <br />
+  h. There are user story categories for sorting and searching : <br />
+  i. 
 
 
 A user cannot delete a product if they are not a superuser : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/nonAdmin_CRUD_directLinkDelete_NoGo.png
