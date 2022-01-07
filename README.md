@@ -63,19 +63,15 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
 ## TESTING USER STORIES
 1. As a Shopper, I want to view a list of products : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStories1_asUserViewProducts.png<br />
 2. As a Shopper, I want to be able to view product details, price, description, rating, sizes, product image : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/userStories2_productDetails.png<br />
-3. 
-  a. That allows users to quickly identify deals and special offers, as well as see the real-time shopping bag indicator : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_viewDeals.png<br />
-
-  b. That allows users to view the total amount of their purchase at any time in order to avoid spending too much : 
-
-  c. log in and out : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3b_logout.png<br />
-                      https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3c_logoutConfirmation.png<br />
-                      https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3c2_SuccessTOASTmsg.png<br />
-
-  d. Register : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3d_Register_Login.png<br />
-  e. Make purchases as a Guest : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3e_PurchaseAsGuest.png<br />
-  f. Logged in users will have access to a personalized user profile : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3f_UserProfile.png<br />
-  g. Where they can store their default payment information. And view their order history as well as past order confirmations. : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_makePurchases_TestKey.png, https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_Profile_wOrderHistory.png <br />
+3.  a. That allows users to quickly identify deals and special offers, as well as see the real-time shopping bag indicator : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_viewDeals.png<br />
+    b. That allows users to view the total amount of their purchase at any time in order to avoid spending too much : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_ViewTotalCost.png<br />
+    c. log in and out : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3b_logout.png<br />
+                        https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3c_logoutConfirmation.png<br />
+                        https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3c2_SuccessTOASTmsg.png<br />
+    d. Register : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3d_Register_Login.png<br />
+    e. Make purchases as a Guest : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3e_PurchaseAsGuest.png<br />
+    f. Logged in users will have access to a personalized user profile : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3f_UserProfile.png<br />
+    g. Where they can store their default payment information. And view their order history as well as past order confirmations. : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_makePurchases_TestKey.png, https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_Profile_wOrderHistory.png <br />
   h. There are user story categories for sorting and searching : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3h_SearchingAndSorting.png<br />
   i. Administration and store management : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3i_admin_mngmt.png<br />
 4. Allow users to create an account and login (allauth) : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting4_AllowSignupRegistration.png<br />
