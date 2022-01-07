@@ -63,7 +63,8 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
 ## TESTING USER STORIES
 1. As a Shopper, I want to view a list of products : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStories1_asUserViewProducts.png<br />
 2. As a Shopper, I want to be able to view product details, price, description, rating, sizes, product image : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/userStories2_productDetails.png<br />
-3. a. That allows users to quickly identify deals and special offers, as well as see the real-time shopping bag indicator : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_viewDeals.png<br />
+3. 
+  a. That allows users to quickly identify deals and special offers, as well as see the real-time shopping bag indicator : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_viewDeals.png<br />
 
   b. That allows users to view the total amount of their purchase at any time in order to avoid spending too much : 
 
