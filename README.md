@@ -89,8 +89,8 @@ https://akoz-ms4v2.herokuapp.com/products/delete/177/ <br />
 
 ### CODE VALIDATION
  CSS = https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en<br />
- https://validator.w3.org/#validate_by_input<br />
- HTML w/Errors = https://validator.w3.org/nu/?doc=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F<br />
+ HTML = https://validator.w3.org/#validate_by_input<br />
+ HTML = https://validator.w3.org/nu/?doc=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F<br />
 
  
     ##### Testing Python code using Python Tutor at https://pythontutor.com/visualize.html#mode=edit
