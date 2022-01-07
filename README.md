@@ -77,7 +77,10 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
   h. There are user story categories for sorting and searching : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3h_SearchingAndSorting.png<br />
   i. Administration and store management : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3i_admin_mngmt.png<br />
 4. Allow users to create an account and login (allauth) : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting4_AllowSignupRegistration.png<br />
-                                                  login : 
+                                                  login : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting4_AllowSignIn_Login.png<br />
+5. All users/shoppers to find products without having to search through all the products : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting5_FindProductsEasilyCRUD.png<br />
+6. As an administrator be able to access and edit products as well as be a shopper : <br />
+
 
 A user cannot delete a product if they are not a superuser : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/nonAdmin_CRUD_directLinkDelete_NoGo.png
 
