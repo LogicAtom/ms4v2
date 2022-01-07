@@ -75,8 +75,9 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
   f. Logged in users will have access to a personalized user profile : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3f_UserProfile.png<br />
   g. Where they can store their default payment information. And view their order history as well as past order confirmations. : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_makePurchases_TestKey.png, https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3_Profile_wOrderHistory.png <br />
   h. There are user story categories for sorting and searching : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3h_SearchingAndSorting.png<br />
-  i. Administration and store management:
-
+  i. Administration and store management : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting3i_admin_mngmt.png<br />
+4. Allow users to create an account and login (allauth) : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting4_AllowSignupRegistration.png<br />
+                                                  login : 
 
 A user cannot delete a product if they are not a superuser : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/nonAdmin_CRUD_directLinkDelete_NoGo.png
 
