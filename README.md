@@ -58,6 +58,7 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
 5. All users/shoppers to find products without having to search through all the products.<br />
 6. As an administrator be able to access and edit products as well as be a shopper.<br />
 
+
 (Updated January 6, 2022)<br />
 ## TESTING USER STORIES
 1. As a Shopper, I want to view a list of products : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStories1_asUserViewProducts.png<br />
@@ -79,7 +80,8 @@ Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screensh
 4. Allow users to create an account and login (allauth) : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting4_AllowSignupRegistration.png<br />
                                                   login : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting4_AllowSignIn_Login.png<br />
 5. All users/shoppers to find products without having to search through all the products : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting5_FindProductsEasilyCRUD.png<br />
-6. As an administrator be able to access and edit products as well as be a shopper : <br />
+6. As an administrator be able to access and edit products as well as be a shopper : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting6_Admin_Shopper.png<br />
+                                                                 change products   : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/UserStoriesTesting6_Admin_Shopper_ChangeProduct.png<br />
 
 
 A user cannot delete a product if they are not a superuser : https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/nonAdmin_CRUD_directLinkDelete_NoGo.png
