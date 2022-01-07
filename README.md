@@ -91,6 +91,7 @@ https://akoz-ms4v2.herokuapp.com/products/delete/177/ <br />
  CSS = https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en<br />
  HTML = https://validator.w3.org/#validate_by_input<br />
  HTML = https://validator.w3.org/nu/?doc=https%3A%2F%2Fakoz-ms4v2.herokuapp.com%2F<br />
+ https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/CodeValidation_NoIssuesCompleteFinal.png
 
  
     ##### Testing Python code using Python Tutor at https://pythontutor.com/visualize.html#mode=edit
@@ -265,7 +266,7 @@ Tutors:<br />
 Code Institute Tutors (Alan) = Django Admin Model and Project Migrations. :)<br />
 Code Institute Tutors (Ed) = Django and Site Views and Templates. :) <br />
 Code Institute Tutors (Sheryl) = Django Environment Variables., and Heroku help. :)<br />
-Code Institute Tutors (Rebecca) = AWS, ACL's, Stripe Docs, and Heroku CVARs :)<br />
+Code Institute Tutors (Rebecca) = AWS, ACL's, Stripe Docs, Heroku CVARs, Code Validation :)<br />
 Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!<br />
 
 stackoverflow - For all of the custom questions and answers.
@@ -274,7 +275,7 @@ Akshat Garg - My Mentor for Software Development from Code Institute ... Thank y
 
 
 ### Educational Acknowledgements
-Palmetto Goodwill - In collaboration with TTC - Grant Funder (my beautiful angels!)
+Palmetto Goodwill - Grant Funder (my beautiful angels!)
 <br />
 Code Institute - Web Development School - You are the best Teachers!
 <br />
