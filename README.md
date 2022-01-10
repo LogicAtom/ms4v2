@@ -1,7 +1,7 @@
 # MS4v2 - December 15, 2021 
 
-(Updated December 30, 2021)
-(Updated January 3,4,5,6,7,10 - 2022)
+(Updated December 30, 2021)<br />
+(Updated January 3,4,5,6,7,10 - 2022)<br />
 Created to show Django and Python e-commerce website.
 
 ## LIVE SITE:  https://akoz-ms4v2.herokuapp.com/ 
