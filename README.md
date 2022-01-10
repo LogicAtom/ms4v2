@@ -1,6 +1,7 @@
 # MS4v2 - December 15, 2021 
 
 (Updated December 30, 2021)
+(Updated January 3,4,5,6,7,10 - 2022)
 Created to show Django and Python e-commerce website.
 
 ## LIVE SITE:  https://akoz-ms4v2.herokuapp.com/ 
@@ -9,7 +10,6 @@ Created to show Django and Python e-commerce website.
 Adding TESTING PROCEDURES section with associated screenshots, and a basic description for each.<br />
 Adding NEW SCREENSHOTS for the Testing Procedures section<br />
 Adding CODE VALIDATION URLs<br />
-
 
 ## 👷 Built with these Technologies
 Python3, Django, HTML5, CSS3, PostGres, AWS, STRIPE, JS.
@@ -28,8 +28,7 @@ Python3, Django, HTML5, CSS3, PostGres, AWS, STRIPE, JS.
 11. Connecting the SHOP NOW button to the Products Page = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/wire_up_shop_now_button_to_products_page.png
 12. Connecting the SHOP NOW button to the Products Page (Success) = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/ShopNowButtonToProducts-Success.png
 13. Adding new products via Django Administration, as shown on the project main site = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/test_django_add_product-confirm.png
-14. Successful products added via Django Administration, as shown on the Django Administration = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/test_django_add_product.png
-
+14. Successful products added via Django Administration, as shown on the Django Administration = https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/test_django_add_product.png<br />
 
 Screenshots folder = https://github.com/LogicAtom/ms4v2/tree/main/media/screenshots
 <br />
@@ -96,7 +95,8 @@ https://akoz-ms4v2.herokuapp.com/products/delete/177/ <br />
  
     ##### Testing Python code using Python Tutor at https://pythontutor.com/visualize.html#mode=edit
  
- 
+### WIREFRAMES
+Wireframing via screenshot:  https://github.com/LogicAtom/ms4v2/blob/main/media/screenshots/ms4Wireframes.png<br />
 
 ### PIP INSTALLS (do these very first thing!)
 pip3 install Django==3.2.9<br />
@@ -193,99 +193,110 @@ mkdir -p products/templates/products (so Django knows which app these belong to,
  https://help.heroku.com/O0EXQZTA/how-do-i-switch-branches-from-master-to-main<br />
  https://stripe.com/docs/testing#cards<br />
  
-
+ 
+ ## SOFTWARE USED TO CREATE THIS PROJECT
+ Python: https://www.python.org/<br />
+ Django: https://www.djangoproject.com/<br />
+ HTML5: https://whatwg.org/<br />
+ CSS3: https://www.w3.org/<br />
+ CSS3 additional Software:  (Bootstrap)https://getbootstrap.com/<br />
+ Javascript: https://www.mozilla.org/en-US/<br />
+ Jinja: https://jinja.palletsprojects.com/en/3.0.x/<br />
+ 
+ ## CLOUD SERVICES
+ GitPod: https://www.gitpod.io/<br />
+ GitHub: https://github.com/<br />
+ Heroku: https://www.heroku.com/<br />
+ AWS: https://aws.amazon.com/?nc2=h_lg<br />
+ Stripe: https://stripe.com/<br />
+ 
  ### WEB TOOLS
- https://fonts.google.com/<br />
- https://fontawesome.com<br />
- https://kaggle.com<br />
- https://jsonformatter.org/<br />
- https://miniwebtool.com/django-secret-key-generator/<br />
- https://www.diffchecker.com/<br />
- https://pythontutor.com/visualize.html#mode=edit
-
-
- ### ERRORS
- In case any errors happen, these are common places to figure it out:
-
- 1.  foreign keys, products folder(app), models.py
- 2.  bigautofield. *RESOLVED* via last line of code in settings.py (apparently its related to django version).
-
-
-### MIGRATIONS (changes to models)
-python3 manage.py makemigrations --dry-run<br />
-python3 manage.py makemigrations<br />
-python3 manage.py migrate --plan <!-- --plan flag, to make sure there is nothing wrong with the models --><br />
-python3 manage.py migrate<br />
-
-python3 manage.py showmigrations
-
-
-### LOAD DATA (to use the fixtures)
-python3 manage.py loaddata categories
-
-python3 manage.py loaddata products
-
-## REMINDERS
-django.db.models.BigAutoField = products, apps.py = *RESOLVED* by adding this to the end of the settings.py file:  DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
-
-django/forms/widgets/attrs.html = attributes
-
-templates/base.html  = commented out stripe until actually used.
-
-accounts/broken/ = displays allauth links
-
-css > Bulma = keeps fontawesome aligned
-
-bag/checkout-buttons.html = need to add checkout url = RESOLVED*
-
-checkout/models.py = profiles, might cause problems as its not built yet. = WORKING*NoErrors
-
-checkout/forms.py = attrs, args, kwargs
-
-
-#### Assistant Services and Drivers
+ Google Fonts: https://fonts.google.com/<br />
+ Kaggle (sample databases): https://kaggle.com<br />
+ JSON Formatter: https://jsonformatter.org/<br />
+ Django Secret Key Generatorhttps://miniwebtool.com/django-secret-key-generator/<br />
+ Diff Checker: https://www.diffchecker.com/<br />
+ Python Tutor: https://pythontutor.com/visualize.html#mode=edit<br />
 NodeJS - https://nodejs.org/en/download/ = Dependency Manager<br />
 JQuery - https://jqueryui.com/ = Hamburger Mobile Side Menu<br />
 Materialize CSS - https://materializecss.com/ = Enhance UI/UX<br />
 Amazon Web Services - https://aws.amazon.com/ = Database Connector <br />
 [Git](https://git-scm.com/ "Git") : Version Control System <br />
 [GitPod](https://gitpod.io/ "GitPod") : IDE <br />
-FontAwesome.com = Custom Icons<br />
+FontAwesome.com = Custom Icons : https://fontawesome.com<br />
 Random Keygen https://randomkeygen.com/<br />
 Favicon = https://www.favicon.cc/?action=icon&file_id=957941<br />
-Data Modeling Software = https://dbdiagram.io/<br />
+Wireframing/Data Modeling Software = https://dbdiagram.io/d/61dc77d2f8370f0a2eee9b0f/<br />
+
+ ### ERRORS
+ In case any errors happen, these are common places to figure it out:<br />
+ 1.  foreign keys, products folder(app), models.py<br />
+ 2.  bigautofield. *RESOLVED* via last line of code in settings.py (apparently its related to django version).<br />
+
+### MIGRATIONS (changes to models)<br />
+python3 manage.py makemigrations --dry-run<br />
+python3 manage.py makemigrations<br />
+python3 manage.py migrate --plan <!-- --plan flag, to make sure there is nothing wrong with the models --><br />
+python3 manage.py migrate<br />
+
+python3 manage.py showmigrations<br />
+
+### LOAD DATA (to use the fixtures)<br />
+python3 manage.py loaddata categories<br />
+
+python3 manage.py loaddata products<br />
+
+## REMINDERS<br />
+django.db.models.BigAutoField = products, apps.py = *RESOLVED* by adding this to the end of the settings.py file:  DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'<br />
+
+django/forms/widgets/attrs.html = attributes<br />
+
+templates/base.html  = commented out stripe until actually used.<br />
+
+accounts/broken/ = displays allauth links<br />
+
+css > Bulma = keeps fontawesome aligned<br />
+
+bag/checkout-buttons.html = need to add checkout url = RESOLVED*<br />
+
+checkout/models.py = profiles, might cause problems as its not built yet. = WORKING*NoErrors<br />
+
+checkout/forms.py = attrs, args, kwargs<br />
+
 
 ## Credits and Acknowledgements
 
-[Code Institute](https://codeinstitute.net/ "Code Institute")Code Institute - FullStack Boot Camp - Most of the code and instructions was written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
+[Code Institute](https://codeinstitute.net/ "Code Institute")Code Institute - FullStack Boot Camp - Most of the code and instructions written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
 <br />
-Code Institute - for having me create a Python3 - Full-Stack MileStone4 project
+Code Institute - for having me create a Python3, Django - Full-Stack MileStone4 project
 
 Code Institute - Tutors for all your help..you rock!<br />
 Tutors:<br />
+Code Institute Tutors (Rebecca) = AWS, ACL's, Stripe Docs, Heroku CVARs, Code Validation :)<br />
 Code Institute Tutors (Alan) = Django Admin Model and Project Migrations. :)<br />
 Code Institute Tutors (Ed) = Django and Site Views and Templates. :) <br />
 Code Institute Tutors (Sheryl) = Django Environment Variables., and Heroku help. :)<br />
-Code Institute Tutors (Rebecca) = AWS, ACL's, Stripe Docs, Heroku CVARs, Code Validation :)<br />
+Code Institute Tutors (Jon) = Explaining User Stories and its purpose in detail :)<br />
+
 Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!<br />
 
-stackoverflow - For all of the custom questions and answers.
+stackoverflow https://stackoverflow.com/ - For all of the custom questions and answers.
 
 Akshat Garg - My Mentor for Software Development from Code Institute ... Thank you so very much for everything!! :)
 
 
 ### Educational Acknowledgements
 Palmetto Goodwill - Grant Funder (my beautiful angels!)
+Palmetto Goodwill - COC https://palmettogoodwill.org/coc/, Thank you for letting me use your computers and internet for a few days to work on this project!
 <br />
-Code Institute - Web Development School - You are the best Teachers!
+Code Institute - https://codeinstitute.net/global/ - Web Development School - You are the best School!
 <br />
-Ed2Go/Cengage - Online Courses - You brought it all together, and offered the course. Awesome!
+Ed2Go/Cengage - https://www.ed2go.com/ - Online Courses - You brought it all together, and offered the course. Awesome!
 <br />
-Charleston County Public Library - Thank you for letting me borrow around 100 books!
+Charleston County Public Library - https://www.ccpl.org/- Thank you for letting me borrow around 100 books, and using your computers and internet, I wouldn't have finished this project without you!
+<br />
 
 
 ## 🧑🏻 Code Developer
-
 **Anthony Kozloski**
-
 - 🌌 [Profile](https://github.com/LogicAtom "Anthony Kozloski")
